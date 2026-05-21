@@ -20,7 +20,7 @@ def read_root():
 
 @app.get("/status")
 def status():
-    return {"message": "FastAPI Palacios_Hernández_Antonio v.1.3"}
+    return {"message": "FastAPI Palacios_Hernández_Antonio v.1.4"}
 
 
 @app.get("/db-check")
